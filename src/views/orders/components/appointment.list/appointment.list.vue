@@ -8,7 +8,7 @@
             error-text="请求失败，点击重新加载"
             @load="onLoad"
         >
-            <order v-show="infos.length" v-for="order in infos" :key="order.id" />
+            <appointment v-show="infos.length" v-for="info in infos" :key="info.appointment.id" :info="info" />
             <div class="empty">
                 <img src="" alt="">
             </div>

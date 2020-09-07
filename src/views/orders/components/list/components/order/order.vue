@@ -1,7 +1,7 @@
 <template>
     <div class="order">
         <div class="order-header">
-            <span class="order-header__code">订单号</span>
+            <span class="order-header__code">{{ info.code}}</span>
             <span class="order-header__view">详情</span>
         </div>
         <van-divider  />
@@ -11,11 +11,11 @@
             </div>
             <div class="info-right">
                 <div class="line1">
-                    <span class="name">张三</span>
-                    <span class="phone">1529494832</span>
+                    <span class="name">{{ info.stuName }}</span>
+                    <span class="phone">{{ info.stuPhone }}</span>
                 </div>
                 <div class="address">
-                    瑶湖区洪崖科技园创新3路188号
+                    {{ info.stuAddress }}
                 </div>
                 <div class="business">
                     手机号、无线宽带

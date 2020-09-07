@@ -1,12 +1,12 @@
 import BaseService from '@/services/base.service';
 import {Pager} from '@/entities/paging';
-import Order from '@/entities/isp/order';
+import Order, {OrderInfo} from '@/entities/isp/order';
 import ispClient from '@/clients/isp';
 
 /**
  * 订单服务
  */
-export class OrderService extends BaseService<Order, any, Order, Pager> {
+export class OrderService extends BaseService<Order, any, OrderInfo, Pager> {
 
 }
 
