@@ -31,19 +31,14 @@ export class Pager {
     /**
      * 页
      */
-    public currentPage: number;
+    public page: number;
     /**
      * 每页大小
      */
     public size: number;
 
     constructor(page: number = 0, size: number = 10) {
-        this.currentPage = page;
+        this.page = page;
         this.size = size;
     }
-}
-
-export interface TablePagination {
-    current: number;
-    pageSize: number;
 }

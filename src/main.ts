@@ -6,6 +6,7 @@ import '@/commons/vant';
 import 'normalize.css';
 import '@/assets/style.css';
 import '@/styles/global.less';
+import '@/styles/theme.less';
 import '@/commons/utils/ui';
 import '@/icons/components';
 import '@/commons/filters';

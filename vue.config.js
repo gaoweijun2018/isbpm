@@ -8,16 +8,6 @@ module.exports = {
     configureWebpack: {
         devtool: 'source-map'
     },
-    css: {
-        loaderOptions: {
-            less: {
-                modifyVars: {
-                    // 直接覆盖变量
-                    blue: '#005BB5'
-                },
-            },
-        },
-    },
     chainWebpack: config => {
         config.module
             .rule('ts')
@@ -41,7 +31,6 @@ module.exports = {
                 return options;
             });
     },
-
     pluginOptions: {
         'style-resources-loader': {
             preProcessor: 'less',

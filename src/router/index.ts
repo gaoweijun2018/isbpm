@@ -10,7 +10,19 @@ export const constantRoutes: RouteConfig[] = [
         meta: {
            title: '登录',
         },
-        component: () => import('@/views/login/index.vue'),
+        component: () => import('@/views/flash/index.vue'),
+    },
+    {
+        path: '/orders',
+        name: 'Orders',
+        meta: { title: '订单' },
+        component: () => import('@/views/orders/orders.vue'),
+    },
+    {
+        path: '/order/:id',
+        name: 'OrderInfo',
+        meta: { title: '订单详情' },
+        component: () => import('@/views/order.info/order.info.vue'),
     },
 ];
 

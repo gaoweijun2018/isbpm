@@ -47,7 +47,7 @@ export default class ClientFactory {
         /**
          * 返回数据的拦截器和错误处理
          */
-        axiosInstance.interceptors.response.use(responseInterceptor.onFulfilled, responseInterceptor.onRejected);
+        axiosInstance.interceptors.response.use(responseInterceptor.onFulfilled, (res: any) =>  responseInterceptor.onRejected!(res && res.response && res.response));
         return axiosInstance;
     }
 }

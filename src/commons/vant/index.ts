@@ -12,17 +12,31 @@ import {
     Uploader,
     Divider,
     Picker,
+    Tabs,
+    Tab,
+    Cell,
+    CellGroup,
+    Checkbox,
+    CheckboxGroup,
+    PullRefresh
 } from 'vant';
 
-Vue.use(Form);
-Vue.use(Field);
-Vue.use(Button);
-Vue.use(List);
-Vue.use(Search);
-Vue.use(DropdownMenu);
-Vue.use(DropdownItem);
-Vue.use(Popup);
-Vue.use(Uploader);
-Vue.use(Divider);
-Vue.use(Picker);
+Vue.use(Form)
+    .use(Field)
+    .use(Button)
+    .use(List)
+    .use(Search)
+    .use(DropdownMenu)
+    .use(DropdownItem)
+    .use(Popup)
+    .use(Uploader)
+    .use(Divider)
+    .use(Picker)
+    .use(Tabs)
+    .use(Cell)
+    .use(CellGroup)
+    .use(Checkbox)
+    .use(CheckboxGroup)
+    .use(PullRefresh)
+    .use(Tab);
 Vue.component('VanFieldSelectPicker', VanFieldSelectPicker);

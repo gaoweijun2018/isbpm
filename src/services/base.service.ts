@@ -1,6 +1,6 @@
 import { AxiosInstance } from 'axios';
 import { BaseEntity } from '@/entities/entity';
-import { Page, TablePagination } from '@/entities/paging';
+import { Page } from '@/entities/paging';
 
 /**
  * T: entity
@@ -24,14 +24,8 @@ export default class BaseService<T extends BaseEntity, F, I, C> {
     /**
      * 主页数据
      */
-    public async mainView(params: C): Promise<Page<I>> {
-        return this.client.get(`${this.path }/main/view`, { params });
-    }
-    /**
-     * 请求分页数据
-     */
     public async paging(params: C): Promise<Page<I>> {
-        return this.client.get(`${this.path }/paging`, { params }) ;
+        return this.client.get(`${this.path }/paging`, { params });
     }
     /**
      * 查询所有数据
