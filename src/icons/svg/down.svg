@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0;clip-path:url(#SVGID_4_);}
+	.st1{opacity:0.65;clip-path:url(#SVGID_6_);}
+	.st2{opacity:0;clip-path:url(#SVGID_10_);}
+	.st3{opacity:0.65;clip-path:url(#SVGID_12_);}
+	.st4{opacity:0;clip-path:url(#SVGID_16_);}
+	.st5{opacity:0.65;clip-path:url(#SVGID_18_);}
+	.st6{opacity:0.65;clip-path:url(#SVGID_20_);}
+	.st7{fill-opacity:0;}
+	.st8{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;fill-opacity:0;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill-opacity:0;}
+	.st11{fill:#2C2C2C;}
+	.st12{opacity:0;clip-path:url(#SVGID_22_);}
+	.st13{clip-path:url(#SVGID_24_);enable-background:new    ;}
+	.st14{clip-path:url(#SVGID_26_);}
+	.st15{clip-path:url(#SVGID_28_);}
+	.st16{clip-path:url(#SVGID_30_);}
+	.st17{clip-path:url(#SVGID_32_);}
+	.st18{opacity:0;clip-path:url(#SVGID_34_);}
+	.st19{clip-path:url(#SVGID_36_);}
+	.st20{clip-path:url(#SVGID_40_);fill:#FFFFFF;fill-opacity:0;}
+	.st21{clip-path:url(#SVGID_42_);fill-opacity:0;}
+	.st22{clip-path:url(#SVGID_44_);}
+</style>
+<g id="图层_1">
+	<g>
+		<defs>
+			<rect id="SVGID_3_" width="16" height="16"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect x="-5" y="-5" style="opacity:0;clip-path:url(#SVGID_2_);" width="26" height="26"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_5_" d="M13.9,4h-1.2c-0.1,0-0.2,0-0.2,0.1L8,10.2L3.5,4.1C3.5,4,3.4,4,3.3,4H2.1C2,4,2,4.1,2,4.2l5.6,7.6
+				c0.2,0.3,0.6,0.3,0.8,0L14,4.2C14,4.1,14,4,13.9,4z"/>
+		</defs>
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;"/>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect x="-3.1" y="-1" style="opacity:0.65;clip-path:url(#SVGID_4_);" width="22.1" height="18"/>
+	</g>
+</g>
+<g id="图层_2">
+</g>
+</svg>
