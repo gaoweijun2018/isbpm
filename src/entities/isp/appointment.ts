@@ -2,6 +2,7 @@
  * 预约
  */
 import {BaseEntity} from '@/entities/entity';
+import {Student} from "@/entities/isp/student";
 
 export interface Appointment extends BaseEntity {
     /**
@@ -27,5 +28,12 @@ export interface Appointment extends BaseEntity {
 }
 
 export interface AppointmentInfo {
+    /**
+     * 预约
+     */
     appointment: Appointment;
+    /**
+     * 学生
+     */
+    student: Student;
 }

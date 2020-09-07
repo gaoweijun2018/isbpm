@@ -1,4 +1,5 @@
 import { BaseEntity } from '@/entities/entity';
+import {Student} from "@/entities/isp/student";
 
 /**
  * 订单
@@ -45,4 +46,18 @@ export default interface Order extends BaseEntity {
      * 预约处理人手机号
      */
     ispSellerPhone: string;
+}
+
+/**
+ * 订单详情
+ */
+export interface OrderInfo {
+    /**
+     * 订单
+     */
+    order: Order;
+    /**
+     * 学生
+     */
+    student: Student;
 }
